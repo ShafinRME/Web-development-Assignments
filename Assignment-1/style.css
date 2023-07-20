@@ -120,3 +120,21 @@ body{
 #third-div3{
     background-color: #FFF4D6;
 }
+footer{
+height: 177px;
+text-align: center;
+background-color: var(--default-black, #0B0D17);
+padding-top: 20px;
+}
+footer h1{
+    color: #FF5959;
+    font-family: Lobster;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: 0.5px;
+}
+footer p{
+    color: #D9DBE1;
+}
