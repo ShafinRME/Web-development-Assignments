@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter&family=Lobster&family=Montserrat:wght@700&family=Poppins:wght@700&family=Work+Sans:wght@700&display=swap');
 body{
     font-family: Work Sans;
+    margin: -15px -0px 10px 0px;
+}
+.first-body{
+    background-color: rgba(255, 144, 14, 0.1);
+    
 }
 nav{
     display: flex;
@@ -8,7 +13,50 @@ nav{
     justify-content: space-between;
     margin: 20px 150px;
 }
+nav h1{
+    font-size: 45px;
+}
 nav div{
     display: flex;
+    margin-top: 35px;
     gap: 50px;
+    font-size: 18px;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 150px 20px 150px;
+}
+.first-section h1{
+    font-size: 64px;
+}
+.first-section p{
+    width: 862px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px
+}
+.first-section button{
+    height: 64px;
+    width: 180px;
+    text-align: center;
+    margin-left: 430px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    background: #FF900E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(255, 255, 255, 1);
+    border: 0.5px solid rgba(255, 255, 255, 1);
+}
+.first-section img{
+    padding-bottom: 30px;
 }
