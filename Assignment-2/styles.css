@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter&family=Lobster&family=Montserrat:wght@700&family=Poppins:wght@700&family=Work+Sans:wght@700&display=swap');
+body{
+    font-family: Work Sans;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 20px 150px;
+}
+nav div{
+    display: flex;
+    gap: 50px;
+}
