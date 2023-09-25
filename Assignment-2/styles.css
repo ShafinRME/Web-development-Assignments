@@ -171,3 +171,33 @@ nav div{
     font-weight: 500;
     line-height: 40px;
 }
+.fourth-section{
+    margin-left: 120px;
+    margin-bottom: 90px;
+    margin-top: 70px;
+}
+.fourth-section .s4-head{
+    font-size: 45px;
+}
+.fourth-section .s4-icons div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    width: 241.831px;
+    height: 241.831px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.s4-icons div h1{
+    margin-bottom: -30px;
+}
+.s4-icons div img{
+    padding-left: 95px;
+    padding-top: 70px;
+}
+.s4-icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+}
