@@ -223,6 +223,50 @@ nav div{
     grid-template-columns: repeat(5,1fr);
     margin-left: 20px;
 }
+.sixth-section-1 h1{
+    font-size: 55px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+}
+.sixth-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px;
+    gap: 50px;
+}
+.sixth-section div{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    gap: 20px;
+}
+.sixth-section div input{
+    border: 3px solid rgb(148, 194, 50);
+    border-radius: 10px;
+    padding: 15px;
+}
+.sixth-section div textarea{
+    border: 3px solid rgb(148, 194, 50);
+    border-radius: 10px;
+    padding: 15px;
+}
+.sixth-section button{
+    height: 64px;
+    width: 180px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    background: #FF900E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(255, 255, 255, 1);
+    border: 0.5px solid rgba(255, 255, 255, 1);
+}
+.sixth-section button i{
+    padding-right: 20px;
+}
 footer div{
     height: 100px;
     border-radius: 8px;
