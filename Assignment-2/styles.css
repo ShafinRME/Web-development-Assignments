@@ -201,3 +201,25 @@ nav div{
     grid-template-columns: repeat(4,1fr);
     margin-top: 50px;
 }
+.s4-icons div:hover{
+    transform:rotate3d(20,40,30, 30deg);
+}
+.fifth-section{
+    text-align: center;
+    margin: 120px;
+}
+.fifth-section h1{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+.fifth-section p{
+    margin-left: 390px;
+    margin-bottom: 50px;
+    width: 500px;
+}
+.fifth-section div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 20px;
+}
