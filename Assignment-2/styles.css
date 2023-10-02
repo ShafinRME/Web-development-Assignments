@@ -275,3 +275,156 @@ footer div{
     text-align: center;
     padding-top: 45px;
 }
+
+/* <--------Only for Mobile Device---------> */
+
+@media only screen and (max-width:480px){
+    nav{
+        display: flex;
+        margin-left: 10px;
+        gap: 0px;
+    }
+    nav h1{
+        font-size: 20px;
+    }
+    nav div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2px;
+        gap: 2px;
+        font-size: 10px;
+    }
+
+    .first-section{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 20px 10px 20px 10px;
+        }
+        .first-section h1{
+            font-size: 24px;
+            margin-right: 120px;
+        }
+        .first-section p{
+            width: 300px;
+            margin-left: 20px;
+            text-align: center;
+            font-family: Work Sans;
+            font-size: 12px;
+            font-style: normal;
+            line-height: 16px;
+        }
+        .first-section button{
+            height: 32px;
+            width: 90px;
+            text-align: center;
+            margin-left: 130px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            background: #FF900E;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            color: rgba(255, 255, 255, 1);
+            border: 0.5px solid rgba(255, 255, 255, 1);
+        }
+        .first-section img{
+            padding-bottom: 30px;
+            margin-left: 10px;
+            width: 70%;
+        }
+    }
+    .second-section{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        padding: 20px;
+    }
+    .second-section .s2-image img{
+        width: 150px;
+    }
+    .second-section .s2-image{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        height: 50px;
+        width: 10%;
+    }
+    .second-section .s2-Qlist{
+        margin-left: 10px;
+        margin-top: 300px;
+        padding-right: 100px;
+    }
+    .s2-Qlist .span-1{
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        color: #727272;
+    }
+    .s2-Qlist .span-2{
+        color:  #131313;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .s2-Qlist .span-3{
+        color: #FF900E;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .s2-Qlist p{
+        color:  #727272;
+        font-family: Work Sans;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+        padding-right: 20px;
+    }
+    .s2-Qlist button{
+        height: 32px;
+        width: 90px;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        background: #FF900E;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        color: rgba(255, 255, 255, 1);
+        border: 0.5px solid rgba(255, 255, 255, 1);
+    }
+    .third-section{
+    }
+    .fourth-section{
+        display: none;
+    }
+    .fifth-section{
+        display: none;
+    }
+    .sixth-section-1{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    
+
+}
+
+
+
+
+
+/* <--------Only for Tablets phones---------> */
+@media only screen and (max-width: 600px) and (min-width: 400px){
+
+}
