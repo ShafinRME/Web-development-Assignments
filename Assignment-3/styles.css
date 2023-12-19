@@ -1,0 +1,118 @@
+body{
+    font-family: EB Garamond;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 60px;
+}
+.navbar_parent{
+    width: 1050px;
+}
+.nav-item img{
+    margin-left: -6px;
+}
+.nav_item{
+    margin-left: 150px;
+}
+.provide_solution {
+    position: relative;
+    background-image: url("images/banner.png");
+    background-position: center;
+    border-radius: 8px;
+    width: 1050px;
+    height: 550px;
+    text-align: center;
+    color: #FFF;
+}
+
+.provide_solution::before {
+    content: 'Overlay Content'; /* Add content property for ::before to make it visible */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(214, 23, 23, 0.5);
+    z-index: -1;
+    border-radius: 8px; /* Ensure the pseudo-element has the same border-radius as the main container */
+}
+
+.ps_children{
+    width: 680px;
+    margin-left: 200px;
+    padding-top: 100px;
+}
+.ps_children h1{
+    font-size: 72px;
+    font-weight: 800;
+}
+.ps_children input{
+    height: 64px;
+    width: 500px;
+    border: none;
+    padding: 20px;
+}
+.ps_children button{
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.legal_head{
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 100px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+.legal_head h2{
+    font-family: EB Garamond;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    color: #414040;
+}
+.legal_item{
+    border: 1px solid #E7E7E7;
+    width: 347px;
+    height: 450px;
+    padding: 50px;
+}
+.legal_item img{
+    margin-bottom: 24px;
+}
+.legal_item h4{
+    font-family: EB Garamond;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.legal_it2{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%);
+}
+.clients{
+    margin-bottom: 100px;
+}
+.carousel_item{
+    margin-bottom: 100px;
+}
+.carousel_item img{
+    margin-bottom: 25px;
+}
+.carousel_item h3{
+    font-family: EB Garamond;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+.carousel_item p{
+    margin-top: 35px;
+}
+.accordion_item_head{
+    font-family: EB Garamond;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
