@@ -1,4 +1,4 @@
-body{
+.main-part{
     font-family: EB Garamond;
     margin-left: 150px;
     margin-right: 150px;
@@ -115,4 +115,63 @@ body{
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
+}
+.contact-left div{
+    background: var(--Dark-07, #F3F3F3);
+    border: 1px solid #CFCFCF;
+    width: 260px;
+    height: 260px;
+    padding-top: 50px;
+}
+.contact-left div h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact_form input{
+    width: 500px;
+    height: 72px;
+    border-radius: 8px;
+    background-color: var(--Dark-07, #F3F3F3);
+    padding: 25px;
+    border: none;
+}
+.contact_form button{
+    height: 72px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.contact_form textarea{
+    border-radius: 8px;
+    background-color: var(--Dark-07, #F3F3F3);
+    padding: 25px;
+    border: none;
+}
+footer{
+    height: 506px;
+    background: var(--Dark-01, #111);
+    padding-left:150px;
+    padding-right: 150px;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    color: #FFFFFF;
+}
+.footer_form input{
+    width: 250px;
+    height: 72px;
+    border-radius: 8px;
+    background-color: var(--Dark-07, #F3F3F3);
+    padding: 25px;
+    border: none;
+}
+.footer_form img{
+    position: relative;
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    background: #B68C5A;
+    margin-left: -10px;
 }
